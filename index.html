@@ -7,11 +7,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/style.css">
     <script defer src="./assets/script.js"></script>
+    
 
     <title>Javascript_Coding_Quiz</title>
 </head>
 
-<body>
+<body>  
+    <div class="timer">
+        time left = <span id="time-left">x</span>
     <div class="container" hidden="true"> 
         <div id="question-container" class="hide">
             <div id="question">
@@ -30,8 +33,21 @@
             <p>Here you will answer a timed quiz to test your knowledge on JavaScript.</p>
             <button id="start-btn"  class="start-btn btn">Start</button>
         </div>
+        <div><form action="" method="get" class="form">
+            <div class="name">
+              <label for="name">Enter your name: </label>
+              <input type="text" name="name" id="name" required>
+            </div>
+           
+            <div class="form">
+              <input type="submit" value="Subscribe!">
+            </div>
+          </form></div>
 </body>
 
-
+ 
 
 </html>
+
+
+
